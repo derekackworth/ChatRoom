@@ -1,0 +1,26 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "chatroom",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "installpackage": "npm install",
+    "installupdates": "npm i -g npm-check-updates && ncu -u && npm install"
+  },
+  "author": "Derek Ackworth",
+  "engines": {
+    "node": "13.8"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.2",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0",
+    "socket.io": "^2.3.0",
+    "yargs": "^15.1.0"
+  }
+}
